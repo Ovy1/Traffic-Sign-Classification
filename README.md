@@ -1,8 +1,12 @@
-## Build a Traffic Sign Recognition Program
+## Build a Traffic Sign Recognition 
 
 ### Overview
 
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic signs. You will train a model so it can decode traffic signs from natural images by using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, you will then test your model program on new images of traffic signs you find on the web, or, if you're feeling adventurous pictures of traffic signs you find locally!
+    Load the data set 
+    Explore, summarize and visualize the data set
+    Design, train and test a model architecture
+    Use the model to make predictions on new images
+    Analyze the softmax probabilities of the new images
 
 ### Dependencies
 
@@ -108,6 +112,7 @@ Image 8 - Predicted class =  12, true class = 12
 
 ### Top 5 Softmax Probabilities For Each Image Found on the Web
 
+```
 top 10 softmax probabilities for the predictions 
 Result : No entry  ===> 100.00%
 Result : Yield  ===> 100.00%
@@ -117,5 +122,8 @@ Result : Roundabout mandatory  ===> 98.58%
 Result : General caution  ===> 100.00%
 Result : Road work  ===> 100.00% 
 Result : Priority road  ===> 100.00%
+```
+
+
 
 
